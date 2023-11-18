@@ -25,6 +25,7 @@ if lines is not None:
 # Muestro la imagen con las líneas detectadas
 cv2.imshow('Detected Lines', image)
 cv2.waitKey(0)
+
 cv2.destroyAllWindows()
 
 # Si se detectaron líneas, imprimir sus puntos de inicio y fin
