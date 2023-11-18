@@ -28,6 +28,7 @@ if circles is not None:
 # Muestro la imagen con los círculos detectados
 cv2.imshow('Detected Circles', image)
 cv2.waitKey(0)
+
 cv2.destroyAllWindows()
 
 # Si se detectó algún circulo, muestro sus coordenadas y radio
